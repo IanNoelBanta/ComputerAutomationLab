@@ -43,7 +43,7 @@
             button1.Location = new Point(158, 314);
             button1.Name = "button1";
             button1.Size = new Size(75, 35);
-            button1.TabIndex = 0;
+            button1.TabIndex = 2;
             button1.Text = "Show";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
@@ -53,7 +53,7 @@
             button2.Location = new Point(264, 314);
             button2.Name = "button2";
             button2.Size = new Size(75, 35);
-            button2.TabIndex = 1;
+            button2.TabIndex = 3;
             button2.Text = "Cancel";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
@@ -98,7 +98,7 @@
             textBox2.Name = "textBox2";
             textBox2.PlaceholderText = "Type in the star sign's main characteristics here";
             textBox2.Size = new Size(283, 190);
-            textBox2.TabIndex = 3;
+            textBox2.TabIndex = 1;
             textBox2.TextChanged += textBox2_TextChanged;
             textBox2.KeyDown += textBox2_KeyDown;
             // 
@@ -108,7 +108,7 @@
             textBox1.Name = "textBox1";
             textBox1.PlaceholderText = "Type in the name of the star sign";
             textBox1.Size = new Size(283, 23);
-            textBox1.TabIndex = 2;
+            textBox1.TabIndex = 0;
             textBox1.TextChanged += textBox1_TextChanged;
             textBox1.KeyDown += textBox1_KeyDown;
             // 
