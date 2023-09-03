@@ -1,0 +1,16 @@
+C:\Users\Ian\source\repos\CAL_Exercise1\CAL_Exercise1\bin\Debug\net6.0-windows\CAL_Exercise1.exe
+C:\Users\Ian\source\repos\CAL_Exercise1\CAL_Exercise1\bin\Debug\net6.0-windows\CAL_Exercise1.deps.json
+C:\Users\Ian\source\repos\CAL_Exercise1\CAL_Exercise1\bin\Debug\net6.0-windows\CAL_Exercise1.runtimeconfig.json
+C:\Users\Ian\source\repos\CAL_Exercise1\CAL_Exercise1\bin\Debug\net6.0-windows\CAL_Exercise1.dll
+C:\Users\Ian\source\repos\CAL_Exercise1\CAL_Exercise1\bin\Debug\net6.0-windows\CAL_Exercise1.pdb
+C:\Users\Ian\source\repos\CAL_Exercise1\CAL_Exercise1\obj\Debug\net6.0-windows\CAL_Exercise1.Form1.resources
+C:\Users\Ian\source\repos\CAL_Exercise1\CAL_Exercise1\obj\Debug\net6.0-windows\CAL_Exercise1.csproj.GenerateResource.cache
+C:\Users\Ian\source\repos\CAL_Exercise1\CAL_Exercise1\obj\Debug\net6.0-windows\CAL_Exercise1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ian\source\repos\CAL_Exercise1\CAL_Exercise1\obj\Debug\net6.0-windows\CAL_Exercise1.AssemblyInfoInputs.cache
+C:\Users\Ian\source\repos\CAL_Exercise1\CAL_Exercise1\obj\Debug\net6.0-windows\CAL_Exercise1.AssemblyInfo.cs
+C:\Users\Ian\source\repos\CAL_Exercise1\CAL_Exercise1\obj\Debug\net6.0-windows\CAL_Exercise1.csproj.CoreCompileInputs.cache
+C:\Users\Ian\source\repos\CAL_Exercise1\CAL_Exercise1\obj\Debug\net6.0-windows\CAL_Exercise1.dll
+C:\Users\Ian\source\repos\CAL_Exercise1\CAL_Exercise1\obj\Debug\net6.0-windows\refint\CAL_Exercise1.dll
+C:\Users\Ian\source\repos\CAL_Exercise1\CAL_Exercise1\obj\Debug\net6.0-windows\CAL_Exercise1.pdb
+C:\Users\Ian\source\repos\CAL_Exercise1\CAL_Exercise1\obj\Debug\net6.0-windows\CAL_Exercise1.genruntimeconfig.cache
+C:\Users\Ian\source\repos\CAL_Exercise1\CAL_Exercise1\obj\Debug\net6.0-windows\ref\CAL_Exercise1.dll
