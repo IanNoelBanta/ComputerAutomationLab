@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ian\\source\\repos\\CAL_Exercise2\\CAL_Exercise2\\CAL_Exercise2.csproj",
+      "projectUniqueName": "C:\\Users\\Ian\\Source\\Repos\\ComputerAutomationLab\\CAL_Exercise2\\CAL_Exercise2\\CAL_Exercise2.csproj",
       "projectName": "CAL_Exercise2",
-      "projectPath": "C:\\Users\\Ian\\source\\repos\\CAL_Exercise2\\CAL_Exercise2\\CAL_Exercise2.csproj",
+      "projectPath": "C:\\Users\\Ian\\Source\\Repos\\ComputerAutomationLab\\CAL_Exercise2\\CAL_Exercise2\\CAL_Exercise2.csproj",
       "packagesPath": "C:\\Users\\Ian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ian\\source\\repos\\CAL_Exercise2\\CAL_Exercise2\\obj\\",
+      "outputPath": "C:\\Users\\Ian\\Source\\Repos\\ComputerAutomationLab\\CAL_Exercise2\\CAL_Exercise2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ian\\AppData\\Roaming\\NuGet\\NuGet.Config",

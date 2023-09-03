@@ -100,7 +100,7 @@ namespace CAL_Exercise1
                 Dispose();
             }
 
-            
+
         }
 
         public void checkKeyDown(object sender, KeyEventArgs e)
@@ -114,6 +114,5 @@ namespace CAL_Exercise1
                 button2.Focus();
             }
         }
-        // wala lang hehe try lang hehe
     }
 }

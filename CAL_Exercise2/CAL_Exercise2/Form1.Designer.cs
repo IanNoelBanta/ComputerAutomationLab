@@ -57,10 +57,12 @@
             // 
             // dateTimePicker1
             // 
+            dateTimePicker1.CustomFormat = "dd     MMMM     yyyy";
+            dateTimePicker1.Format = DateTimePickerFormat.Custom;
             dateTimePicker1.Location = new Point(104, 84);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(270, 23);
-            dateTimePicker1.TabIndex = 5;
+            dateTimePicker1.TabIndex = 1;
             dateTimePicker1.ValueChanged += dateTimePicker1_ValueChanged;
             // 
             // comboBox1
@@ -70,8 +72,8 @@
             comboBox1.Location = new Point(104, 130);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(161, 23);
-            comboBox1.TabIndex = 4;
-            comboBox1.SelectedValueChanged += comboBox1_SelectedValueChanged;
+            comboBox1.TabIndex = 2;
+            comboBox1.SelectionChangeCommitted += comboBox1_SelectionChangeCommitted;
             // 
             // label3
             // 
@@ -116,29 +118,32 @@
             // 
             // button1
             // 
-            button1.Location = new Point(115, 325);
+            button1.BackColor = Color.Silver;
+            button1.Location = new Point(115, 305);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
-            button1.TabIndex = 1;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            button1.TabIndex = 3;
+            button1.Text = "Apply Now";
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(295, 325);
+            button2.BackColor = Color.Silver;
+            button2.Location = new Point(263, 305);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
-            button2.TabIndex = 2;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            button2.TabIndex = 4;
+            button2.Text = "Cancel";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 224, 192);
-            ClientSize = new Size(452, 372);
+            ClientSize = new Size(440, 372);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(groupBox1);

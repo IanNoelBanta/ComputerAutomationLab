@@ -1,15 +1,17 @@
 using Microsoft.Win32;
+using System.Security.Cryptography.Xml;
 using System.Text.RegularExpressions;
+using System.Windows.Forms;
 
 namespace CAL_Exercise2
 {
     public partial class Form1 : Form
     {
         string name = null;
-        DateTime dateOfBirth;
-        DateTimePicker DOB;
+        string dateOfBirth = DateTime.Now.ToString("dd/MM/yyyy");
         string preferences = null;
         Regex regex = new Regex("^[a-zA-Z]+$|^$");
+        DialogResult dialogResult;
 
         public Form1()
         {
@@ -34,40 +36,55 @@ namespace CAL_Exercise2
                 }
             }
         }
-        private void comboBox1_SelectedValueChanged(object sender, EventArgs e)
-        {
-            if (comboBox1.SelectedItem == null)
-            {
-                preferences = "None";
-            }
-            else
-            {
-                if (textBox1.Text == "")
-                {
-                    name = "None";
-                }
-                else
-                {
-                    preferences = comboBox1.SelectedItem.ToString()!;
-                }
-            }
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (name == null)
+            if (name == null && preferences == null)
             {
-                MessageBox.Show("Star sign: None" + "\n" + "Characteristics: None", "Star sign");
+                MessageBox.Show("NAME: None" + "\n" + "DOB: " + dateOfBirth + "\n" + "LIKES: None", "Summary of your application", MessageBoxButtons.OK);
+            }
+            else if (name == null || preferences == null)
+            {
+                if (name == null)
+                {
+                    MessageBox.Show("NAME: None" + "\n" + "DOB: " + dateOfBirth + "\n" + "LIKES: " + preferences, "Summary of your application", MessageBoxButtons.OK);
+                }
+                else
+                {
+                    MessageBox.Show("NAME: " + name + "\n" + "DOB: " + dateOfBirth + "\n" + "LIKES: None", "Summary of your application", MessageBoxButtons.OK);
+                }
             }
             else
             {
-                MessageBox.Show("NAME: " + name + "\n" + "DOB: " + dateOfBirth + "\n" + "Likes: " + preferences, "Summary of your application", MessageBoxButtons.OK);
+                MessageBox.Show("NAME: " + name + "\n" + "DOB: " + dateOfBirth + "\n" + "LIKES: " + preferences, "Summary of your application", MessageBoxButtons.OK);
             }
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-            DOB = new DateTime((DateTimePicker)dateTimePicker1.Value.ToString("dd/MM/yyyy");
+            dateOfBirth = dateTimePicker1.Value.ToString("dd/MM/yyyy");
+        }
+
+        private void comboBox1_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            preferences = comboBox1.SelectedItem.ToString();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (name != null || preferences != null)
+            {
+                dialogResult = MessageBox.Show("Are you sure you want to exit?", "Exiting", MessageBoxButtons.YesNo);
+
+                if (dialogResult == DialogResult.Yes)
+                {
+                    Dispose();
+                }
+            }
+            else
+            {
+                Dispose();
+            }
         }
     }
 }
